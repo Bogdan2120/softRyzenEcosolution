@@ -1,0 +1,136 @@
+body {
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+}
+
+h1 {
+  margin: 0;
+  font-family: Oswald;
+  font-size: 36px;
+  line-height: 1.5;
+  letter-spacing: 0;
+
+  @media screen and (min-width: 768px) {
+    font-size: 48px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    font-size: 64px;
+  }
+}
+
+h2 {
+  margin: 0;
+  font-family: Oswald;
+  font-size: 28px;
+  line-height: 1.2;
+  letter-spacing: 0;
+
+  @media screen and (min-width: 768px) {
+    font-size: 36px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    font-size: 48px;
+  }
+}
+
+h3,
+h4,
+h5 {
+  margin: 0;
+  font-family: Oswald;
+  font-size: 24px;
+  line-height: 1.2;
+  letter-spacing: 0;
+
+  @media screen and (min-width: 768px) {
+    font-size: 32px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    font-size: 32px;
+  }
+}
+
+p {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+ul {
+  padding: 0;
+  margin-top: 0;
+  margin: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+
+// .hidden {
+//   position: absolute;
+//   width: 1px;
+//   height: 1px;
+//   margin: -1px;
+//   border: 0;
+//   padding: 0;
+//   white-space: nowrap;
+//   clip-path: inset(100%);
+//   clip: rect(0 0 0 0);
+//   overflow: hidden;
+// }
+
+// .ModalContainer {
+//   padding: 40px;
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: center;
+//   align-items: center;
+// }
+
+// .BttonsWrapper {
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: center;
+//   align-items: center;
+//   gap: 20px;
+// }
+
+.container {
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media screen and (min-width: 768px) {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
