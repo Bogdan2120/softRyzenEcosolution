@@ -1,0 +1,38 @@
+.logoContainer {
+    display: flex;
+    align-items: center;
+    column-gap: 4px;
+}
+
+.logoName__text {
+    color: #173D33;
+    font-family: Fontspring;
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -1.32px;
+
+    &:hover {
+        color: #97D28B;
+    }
+}
+
+.logoInfo {
+    width: 60px;
+}
+
+.logoInfo__text {
+    color: #173D33;
+    font-family: CASaygon;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 9px;
+    letter-spacing: -0.4px;
+
+}
+
+.logoInfo__textColor {
+    color: #97D28B;
+}

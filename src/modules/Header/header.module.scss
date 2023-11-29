@@ -1,0 +1,39 @@
+.containerHeader {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    padding-top: 36px;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #fff;
+
+    @media screen and (min-width: 768px) {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    @media screen and (min-width: 1280px) {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
+.burgerMenuBtn {
+    display: inline-flex;
+    width: 39px;
+    height: 39px;
+    padding: 4px 12px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 500px;
+    background: #DCEFD8;
+
+    &:hover {
+        background: #97D28B;
+    }
+}

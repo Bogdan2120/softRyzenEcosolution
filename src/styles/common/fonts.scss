@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "FiraSans";
+  font-family: "Fira Sans";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -20,4 +20,20 @@
   font-weight: 700;
   font-display: swap;
   src: url("../../fonts/Oswald-Bold.ttf");
+}
+
+@font-face {
+  font-family: "CASaygon";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../../fonts/CASaygonText-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Fontspring";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../../fonts/Fontspring-DEMO-allroundgothic-medium.otf");
 }

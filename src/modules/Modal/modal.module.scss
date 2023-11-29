@@ -1,0 +1,21 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    // justify-content: center;
+    // align-items: center;
+    background: rgba(23, 61, 51, 0.25);
+    backdrop-filter: blur(2px);
+    z-index: 1200;
+}
+
+.modal {
+    width: 100%;
+    padding-top: 36px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 36px;
+}
