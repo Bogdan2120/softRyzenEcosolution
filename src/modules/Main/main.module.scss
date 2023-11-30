@@ -1,0 +1,42 @@
+.contsinerMain {
+    width: 100%;
+    // padding-top: 222px;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #fff;
+
+    @media screen and (min-width: 768px) {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    @media screen and (min-width: 1280px) {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
+.mainTitle {
+    margin-bottom: 24px;
+    color: #173D33;
+    font-family: Oswald;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: calc(28/28);
+    text-transform: uppercase;
+}
+
+.mainText {
+    color: #173D33;
+    text-align: justify;
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.64px;
+}

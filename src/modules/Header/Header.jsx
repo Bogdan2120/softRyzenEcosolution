@@ -10,7 +10,7 @@ const Header = () => {
     <section className={styles.containerHeader}>
       <Logo />
       <div className={styles.burgerMenuContainer}>
-        <button className={styles.burgerMenuBtn}>
+        <button className={styles.burgerMenuBtn} type="buttom">
           <SvgSelector id="burger-menu" style={styles.burburgerMenuBtn__icon} />
         </button>
       </div>
