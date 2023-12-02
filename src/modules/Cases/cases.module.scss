@@ -59,7 +59,7 @@
 .casesNavBar {
     display: flex;
     justify-content: space-between;
-    align-items: end;
+    align-items: flex-end;
     margin-bottom: 24px;
 
     @media screen and (min-width: 768px) {
