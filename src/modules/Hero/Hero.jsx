@@ -10,26 +10,31 @@ import windTurbineCleanEnergyDesktopx2 from 'assets/images/wind-turbine-clean-en
 const Hero = () => {
   return (
     <section className={styles.containerHero}>
-      <h1 className={styles.heroTitle}>RENEWABLE ENERGY For any task</h1>
-      <p className={styles.heroText}>
-        Development and implementation of renewable non-polluting energy
-        sources, generating power generation using energy wind, sun, water,
-        biomass
-      </p>
+      <div className={styles.heroWraperTop}>
+        <h1 className={styles.heroTitle}>RENEWABLE ENERGY For any task</h1>
+        <div className={styles.heroInfoBody}>
+          <p className={styles.heroText}>
+            Development and implementation of renewable non-polluting energy
+            sources, generating power generation using energy wind, sun, water,
+            biomass
+          </p>
 
-      <a href="#cases" className={styles.buttom}>
-        Learn more
-        <span className={styles.buttomBodySvg}>
-          <SvgSelector id="arrow" style={styles.buttomSvg} />
-        </span>
-      </a>
-
+          <a href="#cases" className={styles.buttom}>
+            Learn more
+            <span className={styles.buttomBodySvg}>
+              <SvgSelector id="arrow" style={styles.buttomSvg} />
+            </span>
+          </a>
+        </div>
+      </div>
       <div className={styles.contacts}>
-        <p className={styles.contactsAddress}>
-          79005, Ukraine, Lvivstreet. Shota Rustaveli, 7
-        </p>
-        <p className={styles.contactMmail}>ffice@ecosolution.com</p>
-
+        <div className={styles.contactsInfo}>
+          <p className={styles.contactsAddress}>
+            79005, Ukraine, Lvivstreet. Shota Rustaveli, 7
+          </p>
+          <p className={styles.contactMmail}>ffice@ecosolution.com</p>
+          <p className={styles.contactName}>ecosolution © 2023</p>
+        </div>
         <picture>
           <source
             srcset={`${windTurbineCleanEnergyDesktop} 1x, ${windTurbineCleanEnergyDesktopx2} 2x`}

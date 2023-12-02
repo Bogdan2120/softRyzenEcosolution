@@ -1,0 +1,83 @@
+.containerFaq {
+    position: relative;
+    width: 100%;
+    min-width: 360px;
+    max-width: 480px;
+    margin-bottom: 36px;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #fff;
+
+    @media screen and (min-width: 768px) {
+        display: flex;
+        justify-content: space-between;
+        gap: 24px;
+        max-width: none;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-bottom: 100px;
+    }
+
+    @media screen and (min-width: 1280px) {
+        padding-left: 100px;
+        padding-right: 100px;
+        margin-bottom: 120px;
+    }
+}
+
+.faqAccordionContainer {
+    @media screen and (min-width: 768px) {
+        flex-basis: calc((100% - 24px) / 2);
+    }
+}
+
+.faqInfo {
+    @media screen and (min-width: 768px) {
+        flex-basis: calc((100% - 24px) / 2);
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
+
+.faqTitle {
+    position: absolute;
+    width: 320px;
+    top: -80px;
+    margin-bottom: 24px;
+    color: #173D33;
+    font-family: Oswald;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: calc(28/28);
+    text-transform: uppercase;
+
+    @media screen and (min-width: 768px) {
+        position: static;
+        width: 347px;
+        font-size: 36px;
+    }
+
+    @media screen and (min-width: 1280px) {
+        width: 398px;
+        font-size: 48px;
+        margin: 0 auto;
+    }
+}
+
+.faqBtnContainer__text {
+    margin-bottom: 12px;
+    color: #173D33;
+    text-align: center;
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.72px;
+}

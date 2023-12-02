@@ -18,7 +18,7 @@ const Modal = ({ children, close }) => {
   });
 
   return createPortal(
-    <div className={styles.overlay} onClick={closeModal}>
+    <div className={styles.overlay} onClick={close}>
       <div className={styles.modal}>{children}</div>
     </div>,
     modalRoot

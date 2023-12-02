@@ -1,0 +1,72 @@
+.containerCases {
+    position: relative;
+    width: 100%;
+    min-width: 360px;
+    max-width: 480px;
+    margin-bottom: 116px;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #fff;
+
+    @media screen and (min-width: 768px) {
+        max-width: none;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-bottom: 100px;
+    }
+
+    @media screen and (min-width: 1280px) {
+        padding-left: 100px;
+        padding-right: 100px;
+        margin-bottom: 120px;
+    }
+}
+
+.casesTopWraper {
+    @media screen and (min-width: 768px) {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    @media screen and (min-width: 1280px) {
+        margin-bottom: 100px;
+    }
+}
+
+.casesTitle {
+    margin-bottom: 24px;
+    color: #173D33;
+    font-family: Oswald;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: calc(28/28);
+    text-transform: uppercase;
+
+    @media screen and (min-width: 768px) {
+        width: 264px;
+        font-size: 36px;
+    }
+
+    @media screen and (min-width: 1280px) {
+        font-size: 48px;
+    }
+}
+
+.casesNavBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-bottom: 24px;
+
+    @media screen and (min-width: 768px) {
+        column-gap: 126px;
+    }
+
+    @media screen and (min-width: 1280px) {
+        column-gap: 193px;
+    }
+}

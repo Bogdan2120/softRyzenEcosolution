@@ -1,8 +1,10 @@
+import { Element } from 'react-scroll';
+
 import styles from './main.module.scss';
 
 const Main = () => {
   return (
-    <section className={styles.contsinerMain}>
+    <Element name="Main" className={styles.contsinerMain}>
       <h2 className={styles.mainTitle}>Main values of our company</h2>
 
       <p className={styles.mainText}>
@@ -12,7 +14,7 @@ const Main = () => {
         technologies that harness the power of nature to meet the world's energy
         needs.
       </p>
-    </section>
+    </Element>
   );
 };
 

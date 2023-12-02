@@ -9,11 +9,13 @@ import manWorkerFirldBySolarPanelsTabletx2 from 'assets/images/man-worker-firld-
 import manWorkerFirldBySolarPanelsDesktop from 'assets/images/man-worker-firld-by-solar-panels-desktop.jpg';
 import manWorkerFirldBySolarPanelsDesktopx2 from 'assets/images/man-worker-firld-by-solar-panels-desktop@x2.jpg';
 
+import { Element } from 'react-scroll';
+
 import styles from './about.module.scss';
 
 const About = () => {
   return (
-    <section className={styles.contsinerAbout}>
+    <Element name="About" className={styles.contsinerAbout}>
       <h2 className={styles.titleAbout}>About</h2>
       <div className={styles.aboutGrid}>
         <div className={styles.aboutGrid__itemText}>
@@ -101,7 +103,7 @@ const About = () => {
           </ul>
         </div>
       </div>
-    </section>
+    </Element>
   );
 };
 
