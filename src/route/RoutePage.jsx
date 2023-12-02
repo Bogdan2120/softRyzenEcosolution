@@ -1,5 +1,4 @@
 import { lazy, Suspense } from 'react';
-// import { Routes, Route, Navigate } from 'react-router-dom';
 
 const Header = lazy(() => import('../modules/Header/Header'));
 const Hero = lazy(() => import('../modules/Hero/Hero'));
@@ -9,7 +8,7 @@ const Electricity = lazy(() => import('../modules/Electricity/Electricity'));
 const Cases = lazy(() => import('../modules/Cases/Cases'));
 const Faq = lazy(() => import('../modules/Faq/Faq'));
 const Contacts = lazy(() => import('../modules/Contacts/Contacts'));
-// const Footer = lazy(() => import('../modules/Footer/Footer'));
+const Footer = lazy(() => import('../modules/Footer/Footer'));
 
 const RoutePage = () => {
   return (
@@ -22,12 +21,7 @@ const RoutePage = () => {
       <Cases />
       <Faq />
       <Contacts />
-      {/* 
-      
-      <Footer /> */}
-      {/* <Routes>
-        <Route path="/#main" />
-      </Routes> */}
+      <Footer />
     </Suspense>
   );
 };

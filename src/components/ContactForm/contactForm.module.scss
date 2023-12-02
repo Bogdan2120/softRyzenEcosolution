@@ -7,14 +7,12 @@
         display: flex;
         flex-basis: calc((100% - 24px) / 2);
         padding: 36px 24px;
-        // width: 342px;
         flex-grow: 1;
     }
 
     @media screen and (min-width: 1280px) {
         padding: 48px;
         flex-basis: calc((100% - 48px) / 2);
-        // width: 596px;
     }
 }
 

@@ -20,8 +20,8 @@ const CasesSliderItems = ({ item }) => {
             onClick={() => console.log('Slide button click!')}
           >
             <SvgSelector
-              styles={styles.buttonWraper__svg}
-              id="arowSliderContent"
+              style={styles.buttonWraper__svg}
+              id="arrowSliderContent"
             />
           </button>
         </div>

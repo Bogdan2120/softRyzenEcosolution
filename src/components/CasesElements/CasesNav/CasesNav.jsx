@@ -15,6 +15,3 @@ const CasesNav = ({ left, right }) => {
 };
 
 export default CasesNav;
-
-//sliderArrowLeft
-//className={styles.buttonWrap_r}

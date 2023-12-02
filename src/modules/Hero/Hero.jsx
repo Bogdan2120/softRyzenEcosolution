@@ -1,3 +1,5 @@
+import { Link } from 'react-scroll';
+
 import SvgSelector from 'Svg/SvgSelectors';
 import styles from './hero.module.scss';
 import windTurbineCleanEnergyMobil from 'assets/images/wind-turbine-clean-energy-mobil.jpg';
@@ -19,12 +21,18 @@ const Hero = () => {
             biomass
           </p>
 
-          <a href="#cases" className={styles.buttom}>
+          <Link
+            to="Cases"
+            smooth={true}
+            duration={1200}
+            href="#cases"
+            className={styles.buttom}
+          >
             Learn more
             <span className={styles.buttomBodySvg}>
               <SvgSelector id="arrow" style={styles.buttomSvg} />
             </span>
-          </a>
+          </Link>
         </div>
       </div>
       <div className={styles.contacts}>

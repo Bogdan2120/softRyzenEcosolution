@@ -679,7 +679,7 @@ const SvgSelector = ({ color, id, style, viewBox }) => {
         </svg>
       );
     }
-    case 'arowSliderContent': {
+    case 'arrowSliderContent': {
       return (
         <svg
           className={style}
@@ -703,6 +703,35 @@ const SvgSelector = ({ color, id, style, viewBox }) => {
             d="M6.98901 21.0109L20.8731 7.12688"
             stroke="#173D33"
             stroke-width="1.5"
+            stroke-miterlimit="10"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+      );
+    }
+    case 'arrow-up': {
+      return (
+        <svg
+          className={style}
+          width="16"
+          height="16"
+          viewBox="0 0 16 16"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            id="Vector"
+            d="M3.95312 6.38L7.99979 2.33334L12.0465 6.38"
+            stroke="#173D33"
+            stroke-miterlimit="10"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            id="Vector_2"
+            d="M8 13.6666L8 2.44663"
+            stroke="#173D33"
             stroke-miterlimit="10"
             stroke-linecap="round"
             stroke-linejoin="round"

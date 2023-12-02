@@ -19,7 +19,6 @@
 }
 
 .sliderItemContainer__imgBody {
-    // width: 596px;
     height: 168px;
     flex-shrink: 0;
     position: relative;
@@ -99,34 +98,12 @@
     transition: background-color 0.3s ease-in-out, transform 0.3s ease;
 
     &:hover {
-        @media screen and (min-width: 1280px) {
-            background: #173d33;
-            transform: rotate(45deg);
-        }
+        background: #173d33;
+        transform: rotate(45deg);
     }
 
-    &:active {
-        @media screen and (max-width: 1279px) {
-            background: #173d33;
-            transform: rotate(45deg);
-            -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
-            -webkit-tap-highlight-color: transparent;
-        }
-    }
-}
-
-.buttonWraper__svg {
-    stroke: #173d33;
-    transition: stroke 0.3s ease-in-out;
-
-}
-
-
-.buttonWraper:active .buttonWraper__svg {
-    @media screen and (max-width: 1279px) {
+    &:hover .buttonWraper__svg path {
         stroke: #97d28b;
-        -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
-        -webkit-tap-highlight-color: transparent;
     }
 }
 

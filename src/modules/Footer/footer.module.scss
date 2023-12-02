@@ -1,0 +1,103 @@
+.containerFooter {
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #fff;
+    border-top: 1px solid #97D28B;
+
+    @media screen and (min-width: 768px) {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 40px;
+    }
+
+    @media screen and (min-width: 1280px) {
+        padding-left: 100px;
+        padding-right: 100px;
+
+    }
+}
+
+.footerTopWraper {
+    position: relative;
+    margin-bottom: 24px;
+
+    @media screen and (min-width: 768px) {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.footerSocialBody {
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+
+    @media screen and (min-width: 768px) {
+        width: 232px;
+        justify-content: start;
+        margin-top: 0;
+    }
+}
+
+.footerSocial path {
+    stroke: #173D33;
+}
+
+.btnUp {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+    background: #97D28B;
+    padding: 8px;
+
+    &:hover {
+        background: #173D33;
+    }
+
+    &:hover .BtnUp__svg path {
+        stroke: #97D28B;
+    }
+
+    @media screen and (min-width: 768px) {
+        position: relative;
+    }
+}
+
+.footerBottomWraper {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    align-items: center;
+
+    @media screen and (min-width: 768px) {
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+}
+
+.footerAddress,
+.footerMail,
+.footerName {
+    color: #173D33;
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.64px;
+}
