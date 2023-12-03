@@ -7,7 +7,7 @@
 .menuLink {
     display: flex;
     column-gap: 8px;
-    color: #FFF;
+    color: rgba(255, 255, 255, 0.25);
     font-family: Fira Sans;
     font-size: 24px;
     font-style: normal;
@@ -19,9 +19,25 @@
         color: #97D28B;
     }
 
+    &:active {
+        -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+        -webkit-tap-highlight-color: transparent;
+    }
+
     &:hover .menuLink__svg path {
         stroke: #97D28B;
     }
 
+    &:active .menuLink__svg path {
+        -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+        -webkit-tap-highlight-color: transparent;
+    }
+}
 
+.active {
+    color: #ff6f00;
+}
+
+.menuLink .menuLink__svg path {
+    stroke: rgba(255, 255, 255, 0.25);
 }

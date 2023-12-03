@@ -26,9 +26,30 @@
 }
 
 .casesTopWraper {
+    position: relative;
+
+    &::before {
+        @media screen and (min-width: 768px) {
+            content: "";
+            display: block;
+            position: absolute;
+            width: 1px;
+            height: 65px;
+            top: 50%;
+            right: 50%;
+            transform: translate(50%, -50%);
+            background: #97d28B;
+        }
+
+        @media screen and (min-width: 1280px) {
+            height: 96px;
+        }
+    }
+
     @media screen and (min-width: 768px) {
         display: flex;
         justify-content: space-between;
+        margin-bottom: 38px;
     }
 
     @media screen and (min-width: 1280px) {

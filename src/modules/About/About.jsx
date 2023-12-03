@@ -44,11 +44,11 @@ const About = () => {
         <div className={styles.aboutGrid__itemImg}>
           <picture>
             <source
-              srcset={`${windFarmsFieldsDesktop} 1x, ${windFarmsFieldsDesktopx2} 2x`}
+              srcSet={`${windFarmsFieldsDesktop} 1x, ${windFarmsFieldsDesktopx2} 2x`}
               media="(min-width: 1280px)"
             />
             <source
-              srcset={`${windFarmsFieldsTablet} 1x, ${windFarmsFieldsTabletx2} 2x`}
+              srcSet={`${windFarmsFieldsTablet} 1x, ${windFarmsFieldsTabletx2} 2x`}
               media="(min-width: 768px)"
             />
 
@@ -63,11 +63,11 @@ const About = () => {
         <div className={styles.aboutGrid__itemImg}>
           <picture>
             <source
-              srcset={`${manWorkerFirldBySolarPanelsDesktop} 1x, ${manWorkerFirldBySolarPanelsDesktopx2} 2x`}
+              srcSet={`${manWorkerFirldBySolarPanelsDesktop} 1x, ${manWorkerFirldBySolarPanelsDesktopx2} 2x`}
               media="(min-width: 1280px)"
             />
             <source
-              srcset={`${manWorkerFirldBySolarPanelsTablet} 1x, ${manWorkerFirldBySolarPanelsTabletx2} 2x`}
+              srcSet={`${manWorkerFirldBySolarPanelsTablet} 1x, ${manWorkerFirldBySolarPanelsTabletx2} 2x`}
               media="(min-width: 768px)"
             />
 

@@ -9,6 +9,7 @@ const MenuItems = () => {
       <ul className={styles.menu}>
         <li className={styles.menuItems}>
           <Link
+            activeClass="active"
             to="Main"
             smooth={true}
             duration={1200}
@@ -21,6 +22,7 @@ const MenuItems = () => {
         </li>
         <li className={styles.menuItems}>
           <Link
+            activeClass="active"
             to="About"
             smooth={true}
             duration={1200}
@@ -33,6 +35,7 @@ const MenuItems = () => {
         </li>
         <li className={styles.menuItems}>
           <Link
+            activeStyle={{ color: '#ff6f00}' }}
             to="Cases"
             smooth={true}
             duration={1200}
@@ -45,6 +48,7 @@ const MenuItems = () => {
         </li>
         <li className={styles.menuItems}>
           <Link
+            activeClass="active"
             to="FAQ"
             smooth={true}
             duration={1200}
@@ -57,6 +61,7 @@ const MenuItems = () => {
         </li>
         <li className={styles.menuItems}>
           <Link
+            activeClass="active"
             to="Contact Us"
             smooth={true}
             duration={1200}

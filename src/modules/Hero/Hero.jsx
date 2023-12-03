@@ -45,15 +45,15 @@ const Hero = () => {
         </div>
         <picture>
           <source
-            srcset={`${windTurbineCleanEnergyDesktop} 1x, ${windTurbineCleanEnergyDesktopx2} 2x`}
+            srcSet={`${windTurbineCleanEnergyDesktop} 1x, ${windTurbineCleanEnergyDesktopx2} 2x`}
             media="(min-width: 1280px)"
           />
           <source
-            srcset={`${windTurbineCleanEnergyTablet} 1x, ${windTurbineCleanEnergyTabletx2} 2x`}
+            srcSet={`${windTurbineCleanEnergyTablet} 1x, ${windTurbineCleanEnergyTabletx2} 2x`}
             media="(min-width: 768px)"
           />
           <source
-            srcset={`${windTurbineCleanEnergyMobil} 1x, ${windTurbineCleanEnergyMobilx2} 2x`}
+            srcSet={`${windTurbineCleanEnergyMobil} 1x, ${windTurbineCleanEnergyMobilx2} 2x`}
             media="(max-width: 767px)"
           />
 
